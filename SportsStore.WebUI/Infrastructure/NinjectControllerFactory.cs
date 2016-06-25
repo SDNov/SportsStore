@@ -44,7 +44,6 @@ namespace SportsStore.WebUI.Infrastructure
             }.AsQueryable());
 
             ninjectKernel.Bind<IProductRepository>().ToConstant(mock.Object);
-            //throw new NotImplementedException();
         }
     }
 }
